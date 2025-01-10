@@ -1,0 +1,109 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  width: 70%;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#navbar ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-weight: 300;
+}
+
+#navbar ul li a:hover {
+  color: rgb(26, 31, 100);
+}
+
+#main {
+  margin-top: 9%;
+}
+
+.main-heading {
+  margin-left: 8%;
+  font-size: 24px;
+  margin-right: 60%;
+}
+
+.main-para {
+  margin-top: 20px;
+  margin-left: 8%;
+  margin-right: 65%;
+}
+
+.main-book {
+  margin-top: 20px;
+  margin-left: 8%;
+  margin-right: 70%;
+}
+
+.main-book button {
+  padding: 7px 15px;
+  border-radius: 6px;
+  background-color: black;
+  color: white;
+}
+
+.main-book button:hover {
+  padding: 7px 15px;
+  border-radius: 6px;
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+}
+.main-image {
+  margin-top: -20%;
+  display: flex;
+  justify-content: right;
+  margin-right: 8%;
+}
+
+.company-logos {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 8%;
+}
+
+.company-logos .logos {
+  width: 90px;
+  image-rendering: crisp-edges;
+  filter: grayscale();
+}
+
+.company-logos .logos:hover {
+  filter: saturate();
+}
+
+.request button {
+  padding: 7px 15px;
+  border-radius: 6px;
+  background-color: transparent;
+  color: black;
+}
+
+.request button:hover {
+  padding: 7px 15px;
+  border-radius: 6px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
